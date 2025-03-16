@@ -1,1 +1,2 @@
-# sprint_4_project
+# Sprint 4 project. Used AI (Copilot & Dot) to create code. 
+# The project uses a simple app accessing data from a csv file and showing some of the information from the csv file in a histogram, scatter plot, and checkbox. It also uses a header. 
