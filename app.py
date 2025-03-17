@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-file_path = '/Users/ericpool/Documents/GitHub/sprint_4_project/vehicles_us.csv'
+file_path = 'vehicles_us.csv'
 df = pd.read_csv(file_path)
 
 st.header('Car Dashboard') 
