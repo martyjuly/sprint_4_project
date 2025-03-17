@@ -18,4 +18,3 @@ st.plotly_chart(fig_scatter)
 if st.checkbox('Show only automatic transmission'):
     df_filtered = df[df['transmission'] == 'automatic']
     st.plotly_chart(px.histogram(df_filtered, x='price', title='Price Distribution (Automatic Only)'))
-    
