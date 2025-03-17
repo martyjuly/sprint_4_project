@@ -7,7 +7,7 @@ import plotly.express as px
 file_path = 'vehicles_us.csv'
 df = pd.read_csv(file_path)
 
-st.header('Car Dashboard') 
+st.header('Car Dataset’) 
 
 fig_hist = px.histogram(df, x='price', title='Price Distribution')
 st.plotly_chart(fig_hist)
